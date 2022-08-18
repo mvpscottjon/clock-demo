@@ -52,6 +52,7 @@ class ViewController: UIViewController {
         // digitalTime
         digitalTimeLabel.text = currentClockTimeText()
         digitalTimeLabel.textAlignment = .center
+        digitalTimeLabel.font = .boldSystemFont(ofSize: 35)
         
         view.addSubview(digitalTimeLabel)
         
@@ -171,7 +172,6 @@ class ViewController: UIViewController {
     
     private func makeClockTimeView() -> UIView {
         let view = UIView()
-        view.backgroundColor = .yellow
         
         let twelveLabel = makeClockLabel(clockTime: "12")
         view.addSubview(twelveLabel)
