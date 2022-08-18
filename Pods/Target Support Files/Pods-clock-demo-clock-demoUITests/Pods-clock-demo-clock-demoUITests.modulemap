@@ -1,0 +1,6 @@
+framework module Pods_clock_demo_clock_demoUITests {
+  umbrella header "Pods-clock-demo-clock-demoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
